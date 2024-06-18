@@ -1,0 +1,9 @@
+@import "src/styles/reset.css";
+
+html, body {
+    height: 100%;
+    font-size: 10px;
+    background-color: #cda;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}

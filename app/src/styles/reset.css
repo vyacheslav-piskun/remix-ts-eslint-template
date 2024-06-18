@@ -1,0 +1,29 @@
+html, body, p, ul, li, h1, h2, h3, div, p, input, button, nav, form, main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+input, button {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a,
+button,
+label {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
