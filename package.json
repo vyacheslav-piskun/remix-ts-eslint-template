@@ -14,18 +14,17 @@
     "archive-assets": "echo mock archive-assets script"
   },
   "dependencies": {
+    "@remix-run/css-bundle": "^2.9.2",
     "@remix-run/node": "^2.9.2",
     "@remix-run/react": "^2.9.2",
     "@remix-run/serve": "^2.9.2",
     "classnames": "^2.5.1",
     "isbot": "^4.1.0",
-    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-use": "^17.5.0"
   },
   "devDependencies": {
-    "@remix-run/css-bundle": "^2.9.2",
     "@remix-run/dev": "^2.9.2",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
@@ -46,5 +45,8 @@
   },
   "engines": {
     "node": ">=20.14.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.18.1"
   }
 }
